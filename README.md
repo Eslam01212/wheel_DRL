@@ -141,7 +141,6 @@ If you use this repository, please cite:
 
 **Self-Supervised Wheel Deformation Prediction for Robust Deep RL Navigation in Harsh Environments**
 
-(Add BibTeX here.)
 
 ---
 
