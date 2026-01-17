@@ -26,7 +26,7 @@ The code provides:
 
 ### Training / experiments
 - `ZMAIN.py` — orchestrates training runs
-- `d.py` — PPO training script called by `ZMAIN.py`
+- `d.py` — SAC training script called by `ZMAIN.py`
 
 ### Predictor (wheel deformation)
 - `collect_datasets.py` — collects `.npz` dataset for predictor training
@@ -112,8 +112,8 @@ python3 eval_compare.py
 ```
 
 `eval_compare.py` loads two checkpoints (paths are set inside the script; commonly under `./compare/`), for example:
-- `./compare/ppo_no_predictor.zip`
-- `./compare/ppo_with_predictor.zip`
+- `./compare/SAC_no_predictor.zip`
+- `./compare/SAC_with_predictor.zip`
 
 If your filenames/paths differ, update them inside `eval_compare.py`.
 
